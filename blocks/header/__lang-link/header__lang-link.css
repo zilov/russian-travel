@@ -10,11 +10,13 @@
     text-align: right;    
     text-decoration: none;
     color: white;
+    margin-bottom: 6px;
 }
 
   @media screen and (max-width: 425px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
+        margin-bottom: 8px;
     }
   }
