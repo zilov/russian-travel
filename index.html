@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Russian-travel</title>
-    <link rel="stylesheet" href="./pages/styles.css">
+    <link rel="stylesheet" href="./pages/styles.css" />
   </head>
   <body>
-    <div class="page border">
+    <div class="page">
       <header class="header">
         <img src="./images/logo_russia.svg" alt="logo" class="header__logo" />
-        <a href="lang_switcher" class="header__lang-link">Ru</a>
-        <a href="lang_switcher" class="header__lang-link">Eng</a>
+        <div class="header__lang-switcher">
+          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+          <a href="./html/index_eng.html" class="header__lang-link">Eng</a>
+        </div>
       </header>
 
       <section class="lead">
-        <h1 class="lead_title">Путешествия пvо России</h1>
+        <h1 class="lead_title">Путешествия по России</h1>
         <p class="lead_subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
@@ -38,27 +40,42 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li><span class="intro__list_span-accent">Часовых поясов</span> 11</li>
-          <li><span class="intro__list_span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
-          <li><span class="intro__list_span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-          <li><span class="intro__list_span-accent">Природных заповедников</span> 105</li>
+          <li>
+            <span class="intro__list_span-accent">Часовых поясов</span> 11
+          </li>
+          <li>
+            <span class="intro__list_span-accent"
+              >Объектов природного наследия ЮНЕСКО</span
+            >
+            12
+          </li>
+          <li>
+            <span class="intro__list_span-accent"
+              >Объектов культурного наследия ЮНЕСКО</span
+            >
+            16
+          </li>
+          <li>
+            <span class="intro__list_span-accent">Природных заповедников</span>
+            105
+          </li>
           <li><span class="intro__list_span-accent">Аэропортов</span> 241</li>
         </ul>
       </section>
 
       <section class="photo-grid">
-        <img src="./images/photo-grid_1.jpg" alt="album_photo_1">
-        <img src="./images/photo-grid_2.jpg" alt="album_photo_2">
-        <img src="./images/photo-grid_3.jpg" alt="album_photo_3">
-        <img src="./images/photo-grid_4.jpg" alt="album_photo_4">
-        <img src="./images/photo-grid_5.jpg" alt="album_photo_5">
-        <img src="./images/photo-grid_6.jpg" alt="album_photo_6">
-        <img src="./images/photo-grid_7.jpg" alt="album_photo_7">
-        <img src="./images/photo-grid_8.jpg" alt="album_photo_8">
-        <img src="./images/photo-grid_9.jpg" alt="album_photo_9">
-        <img src="./images/photo-grid_10.jpg" alt="album_photo_10">
-        <img src="./images/photo-grid_11.jpg" alt="album_photo_11">
-        <img src="./images/photo-grid_12.jpg" alt="album_photo_12">
+        <img src="./images/photo-grid_1.jpg" alt="album_photo_1" />
+        <img src="./images/photo-grid_2.jpg" alt="album_photo_2" />
+        <img src="./images/photo-grid_3.jpg" alt="album_photo_3" />
+        <img src="./images/photo-grid_4.jpg" alt="album_photo_4" />
+        <img src="./images/photo-grid_5.jpg" alt="album_photo_5" />
+        <img src="./images/photo-grid_6.jpg" alt="album_photo_6" />
+        <img src="./images/photo-grid_7.jpg" alt="album_photo_7" />
+        <img src="./images/photo-grid_8.jpg" alt="album_photo_8" />
+        <img src="./images/photo-grid_9.jpg" alt="album_photo_9" />
+        <img src="./images/photo-grid_10.jpg" alt="album_photo_10" />
+        <img src="./images/photo-grid_11.jpg" alt="album_photo_11" />
+        <img src="./images/photo-grid_12.jpg" alt="album_photo_12" />
       </section>
 
       <ul class="places">
@@ -190,21 +207,37 @@
 
       <section class="cover">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <p class="cover_subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        <img src="./images/cover_trains.jpg" alt="cover_trains_image" class="cover__background cover__overlay">
+        <p class="cover_subtitle">
+          По мотивам учебной темы о Транссибе — путешествие от столицы до
+          Байкала на электричках.
+        </p>
+        <img
+          src="./images/cover_trains.jpg"
+          alt="cover_trains_image"
+          class="cover__background cover__overlay"
+        />
       </section>
 
       <footer class="footer">
         <ul>
-          <li class="footer__link"><a href="https://yandex.ru/maps">Карты</a></li>
-          <li class="footer__link"><a href="https://yandex.ru/pogoda">Погода</a></li>
-          <li class="footer__link"><a href="https://rasp.yandex.ru">Расписание</a></li>
-          <li class="footer__link"><a href="https://calendar.yandex.ru">Календарь</a></li>
-          <li class="footer__link"><a href="https://travel.yandex.ru">Путешествия</a></li>
+          <li class="footer__link">
+            <a href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li class="footer__link">
+            <a href="https://yandex.ru/pogoda">Погода</a>
+          </li>
+          <li class="footer__link">
+            <a href="https://rasp.yandex.ru">Расписание</a>
+          </li>
+          <li class="footer__link">
+            <a href="https://calendar.yandex.ru">Календарь</a>
+          </li>
+          <li class="footer__link">
+            <a href="https://travel.yandex.ru">Путешествия</a>
+          </li>
         </ul>
         <p class="footer__copyright">© 2020. Зилов Данил</p>
       </footer>
-
     </div>
   </body>
 </html>
