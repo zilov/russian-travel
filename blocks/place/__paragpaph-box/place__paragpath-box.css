@@ -1,0 +1,12 @@
+.place__paragraph-box {
+  grid-row: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph-box {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
