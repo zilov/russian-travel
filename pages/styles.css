@@ -42,6 +42,7 @@
 @import url('../blocks/cover/__background/cover__background.css');
 
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__link/footer__link.css');
 
