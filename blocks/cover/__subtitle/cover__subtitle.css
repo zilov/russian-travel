@@ -2,7 +2,7 @@
   font-size: 14px;
   line-height: 114%;
   text-align: center;
-  white-space: pre-line;
+  max-width: 288px;
 
   margin: 0 auto 0;
   padding: 0;
@@ -12,26 +12,12 @@
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
+    white-space: pre-line;
     font-size: 18px;
+    max-width: 1184px;
     line-height: 22px;
     /* or 122% */
 
     text-align: center;
-  } 
-}
-
-
-@media screen and (min-width: 1024px) {
-  .cover {
-    min-height: 640px;
-  } 
-}
-
-
-@media screen and (min-width: 1280px) {
-  .cover {
-    min-height: 740px;
-    max-width: 1184px;
-    margin: 0 auto 64px;
   } 
 }
