@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 0 50px;
-  gap: 32px
+  gap: 32px;
 }
 
 .place:last-of-type {
