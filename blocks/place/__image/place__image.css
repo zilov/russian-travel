@@ -1,4 +1,4 @@
-.place_image {
+.place__image {
   grid-row: 4;
   justify-self: center;
 
@@ -13,7 +13,7 @@
 
 
 @media screen and (min-width: 768px) {
-  .place_image {
+  .place__image {
     grid-row: 2;
     grid-column: 1;
 
@@ -24,14 +24,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .place_image {
+  .place__image {
     width: 440px;
     height: 440px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .place_image {
+  .place__image {
     width: 460px;
     height: 460px;
   }
