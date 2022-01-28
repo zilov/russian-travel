@@ -1,17 +1,22 @@
 .intro {
-  /* min-width: 288px; */
-  max-width: 984px;
+  max-width: 288px;
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 0 16px 64px;
+  margin: 0 auto 64px;
+}
+
+
+@media screen and (min-width: 425px) {
+  .intro {
+    max-width: 360px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .intro {
-    margin: 0 24px 88px;
+    margin: 0 auto 88px;
+    max-width: 720px;
   }
 }
 
@@ -20,5 +25,12 @@
   .intro {
     margin: 0 auto 92px;
     max-width: 928px;
+    align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    max-width: 984px;
   }
 }
