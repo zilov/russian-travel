@@ -12,11 +12,9 @@
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
-    white-space: pre-line;
     font-size: 18px;
-    max-width: 1184px;
+    max-width: 360px;
     line-height: 22px;
-    /* or 122% */
 
     text-align: center;
   } 
